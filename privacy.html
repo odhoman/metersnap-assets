@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MeterSnap · Política de privacidad</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1c1c1c; --muted:#5f5f5a; --accent:#00695C; --line:#e3e1da; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141414; --fg:#ececec; --muted:#a9a8a2; --accent:#5DCAA5; --line:#2e2e2c; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 20px 64px; }
+  h1 { font-size:28px; margin:0 0 4px; color:var(--accent); }
+  h2 { font-size:19px; margin:32px 0 8px; padding-top:16px; border-top:1px solid var(--line); }
+  p, li { margin:6px 0; }
+  .meta { color:var(--muted); font-size:14px; margin-bottom:24px; }
+  a { color:var(--accent); }
+  code { font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Política de privacidad de MeterSnap</h1>
+<p class="meta">Última actualización: 24 de noviembre de 2026</p>
+
+<p>MeterSnap es una aplicación para Android que ayuda a registrar lecturas de medidores de agua en una planilla de Google Sheets del propio usuario. La desarrolla Jonatan Flores de forma independiente. Esta política explica qué datos usa la aplicación, para qué y dónde quedan.</p>
+
+<p><strong>Resumen:</strong> MeterSnap no tiene servidores propios, no muestra publicidad, no usa herramientas de analítica ni rastreo, y no vende ni comparte datos con terceros. El reconocimiento de voz funciona completamente en el teléfono y el audio no se graba ni se envía a ningún lado.</p>
+
+<h2>1. Cuenta de Google</h2>
+<p>Para leer y escribir la planilla, la aplicación inicia sesión con Google. Google le informa a la aplicación tu nombre, tu dirección de correo y tu foto de perfil. La aplicación solo usa el correo para mostrar con qué cuenta iniciaste sesión. Las credenciales de acceso las administra Android y los servicios de Google; MeterSnap no conoce tu contraseña.</p>
+
+<h2>2. Google Sheets y Google Drive</h2>
+<ul>
+  <li><strong>Google Sheets</strong> (permiso <code>spreadsheets</code>): la aplicación lee la planilla y la solapa que vos elegís, y escribe únicamente las columnas de lectura, fecha de lectura y notas de las filas que cargás. No modifica otras columnas ni otras planillas.</li>
+  <li><strong>Google Drive</strong> (permiso <code>drive.metadata.readonly</code>): se usa solo para mostrarte la lista de tus planillas (nombre, fecha de modificación y propietario) y para detectar si la planilla cambió. La aplicación no lee el contenido de otros archivos de tu Drive.</li>
+</ul>
+<p>Los datos de la planilla pueden incluir domicilios, nomenclaturas, partidas y nombres de titulares. Esos datos pertenecen a quien administra la planilla; MeterSnap solo los muestra y los guarda en el teléfono para poder trabajar sin conexión.</p>
+
+<h2>3. Micrófono</h2>
+<p>La aplicación usa el micrófono únicamente mientras mantenés apretado el botón para dictar una lectura. El audio se procesa en el propio teléfono con un modelo de reconocimiento de voz sin conexión. El audio no se graba, no se guarda y no se envía a ningún servidor. Podés negar el permiso y cargar las lecturas con el teclado.</p>
+
+<h2>4. Datos guardados en el teléfono</h2>
+<p>Para funcionar sin señal, la aplicación guarda en el almacenamiento interno del teléfono una copia de las filas de la planilla, las lecturas y notas que cargás, y la cola de cambios pendientes de sincronizar. Estos datos no salen del teléfono salvo para escribirse en tu planilla de Google. Se borran al usar la opción <em>Borrar datos locales</em> en Ajustes o al desinstalar la aplicación.</p>
+
+<h2>5. Descarga del modelo de voz</h2>
+<p>En el primer uso, la aplicación descarga el modelo de reconocimiento de voz desde GitHub. Esa descarga no incluye datos tuyos; como cualquier descarga de internet, GitHub puede registrar datos técnicos de la conexión, como la dirección IP, según su propia política de privacidad.</p>
+
+<h2>6. Uso de datos de las APIs de Google</h2>
+<p>El uso y la transferencia de la información recibida de las APIs de Google por parte de MeterSnap cumple con la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Datos del Usuario de los Servicios de API de Google</a>, incluidos los requisitos de Uso Limitado. Los datos de Google se usan solo para las funciones descritas en esta política, no se transfieren a terceros, no se usan para publicidad y ninguna persona los lee, salvo vos.</p>
+
+<h2>7. Seguridad</h2>
+<p>Las comunicaciones con Google se realizan cifradas (HTTPS). Los datos locales quedan dentro del espacio privado de la aplicación en el teléfono.</p>
+
+<h2>8. Cómo revocar el acceso y borrar tus datos</h2>
+<ul>
+  <li>En la aplicación: <em>Ajustes → Desconectar cuenta de Google</em> y <em>Borrar datos locales</em>.</li>
+  <li>En tu cuenta de Google: <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a> → MeterSnap → eliminar el acceso.</li>
+  <li>Desinstalar la aplicación borra todos los datos guardados en el teléfono.</li>
+</ul>
+<p>Las lecturas que ya se escribieron en tu planilla quedan en tu Google Sheets y las administrás desde ahí.</p>
+
+<h2>9. Menores de edad</h2>
+<p>MeterSnap es una herramienta de trabajo y no está dirigida a menores de edad.</p>
+
+<h2>10. Cambios en esta política</h2>
+<p>Si la aplicación cambia la forma en que usa datos, esta página se va a actualizar y se va a modificar la fecha de arriba.</p>
+
+<h2>11. Contacto</h2>
+<p>Por consultas sobre esta política: <a href="mailto:jonatanflores2004@gmail.com">jonatanflores2004@gmail.com</a></p>
+</main>
+</body>
+</html>
